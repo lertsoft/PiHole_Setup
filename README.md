@@ -26,3 +26,10 @@ change your default password
 install pi_hole on your raspberry pi
  
  `$ curl -sSL https://install.pi-hole.net | bash`
+
+
+
+<h4> Blocklist sites 
+
+For [youtube ads](https://www.reddit.com/r/pihole/comments/9w5swx/i_think_ive_managed_to_block_youtube_ads_with/) I just blocked manifest.googlevideo.com, you could be more direct by doing a `nslockup manifest.googlevideo.com` get the ip address and block both.
+
