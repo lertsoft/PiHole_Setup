@@ -16,7 +16,7 @@ Press enter / answer yes to the prompts.  When asked for a password,  **raspberr
 Check for updates on your raspberry pi.
   `$ sudo apt-get update && sudo apt-get upgrade -y`
 
-changed your default password
+change your default password
   `$ passwd`
 
 install pi_hole on your raspberry pi
